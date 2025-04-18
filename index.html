@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ゲーミングLP</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <link href="script.js" rel="stylesheet">
+</head>
+<body>
+  <div id="tsparticles" class="particles-container"></div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+          <img src="image/スクリーンショット 2025-04-15 20.29.42.png" alt="Citrus e-sports" style="height: 40px;">
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="#member">MENBERS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#partners">PARTNERS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero" id="home" data-aos="zoom-in">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="media/Valorant_2024.06.07_-_20.32.19.02.DVR_-_Trim.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <section id="about" class="about-section d-flex align-items-center justify-content-center text-center">
+    <h2 class="about-head" data-aos="fade-right">e-sportsに</h2><span class="glitch-text" data-aos="fade-up" data-text="ハマる">ハマる</span><h2 class="about-head" data-aos="fade-left">瞬間を。</h2>
+  </section>
+  <div class="about-explanation text-center">
+    <h3 data-aos="fade-right">Citrus e-sportsは、デザイン事務所TK_Productionが運営するe-sportsチームです。</h3>
+    <h3 data-aos="fade-left">e-sportsシーンに参加するだけではなく、デザイン力やイベント運営のノウハウなど様々な視点から多角的に市場を支えることを目標としています。</h3>
+  </div>
+  
+  
+
+
+  <!-- Features Section -->
+  <div class="container section" id="member">
+    <div class="row text-center">
+      <div class="member-head">
+        <h1 class="member-section" data-aos="fade-up">Citrus e-sports</h1>
+        <h2>MEMBERS</h2>
+      </div>
+    </div>
+    <div class="row text-center">
+      <h1 class="streamer-menber" data-aos="fade-up">STREAMER</h1>
+      <div class="col-md-4 mb-4" data-aos="flip-left">
+        <img src="https://placehold.co/100x100/ff9900/000000?text=Y" class="mb-3 member-thumb" data-bs-toggle="modal" data-bs-target="#modalMember1" alt="Yuki">
+        <h4>名前</h4>
+        <p>説明文</p>
+      </div>
+      
+      <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="https://placehold.co/100x100/ff9900/000000?text=K" class="mb-3 member-thumb" data-bs-toggle="modal" data-bs-target="#modalMember2" alt="Kai">
+        <h4>名前</h4>
+        <p>説明文</p>
+      </div>
+      
+      <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="200">
+        <img src="https://placehold.co/100x100/ff9900/000000?text=R" class="mb-3 member-thumb" data-bs-toggle="modal" data-bs-target="#modalMember3" alt="Rena">
+        <h4>名前</h4>
+        <p>説明文</p>
+      </div>
+      
+      <!-- モーダルたち -->
+      <div class="modal fade" id="modalMember1" tabindex="-1" aria-labelledby="modalMember1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="modalMember1Label">名前 - STREAMER</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>冷静沈着なIGL。チームの頭脳として勝利を導く。</p>
+              <img src="https://placehold.co/300x200/ff9900/000000?text=Yuki" class="img-fluid rounded mt-2" alt="Yuki">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal fade" id="modalMember2" tabindex="-1" aria-labelledby="modalMember2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="modalMember2Label">名前 - STREAMER</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>チームのムードメーカー。常に前向きな声がけで士気を上げる。</p>
+              <img src="https://placehold.co/300x200/ff9900/000000?text=Kai" class="img-fluid rounded mt-2" alt="Kai">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal fade" id="modalMember3" tabindex="-1" aria-labelledby="modalMember3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="modalMember3Label">Rena - VALORANT</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>クールな立ち回りと高い撃ち合い精度でラウンドを制圧。</p>
+              <img src="https://placehold.co/300x200/ff9900/000000?text=Rena" class="img-fluid rounded mt-2" alt="Rena">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <h1 class="valorant-member" data-aos="fade-up" >VALORANT</h1>
+      <div class="col-md-4 mb-4" data-aos="flip-left">
+        <img src="https://placehold.co/100x100/ff9900/000000?text=A" class="mb-3 member-thumb" data-bs-toggle="modal" data-bs-target="#modalMember4" alt="Asuka">
+        <h4>Asuka</h4>
+        <p>Roster</p>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="flip-left">
+        <img src="https://placehold.co/100x100/ff9900/000000?text=M" class="mb-3 member-thumb" data-bs-toggle="modal" data-bs-target="#modalMember5" alt="Mio">
+        <h4>Mio</h4>
+        <p>Roster</p>
+        <p>サポート特化の頼れる存在。</p>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="flip-left">
+        <img src="https://placehold.co/100x100/ff9900/000000?text=T" class="mb-3 member-thumb" data-bs-toggle="modal" data-bs-target="#modalMember6" alt="Taku">
+        <h4>Taku</h4>
+        <p>Roster</p>
+        <p>読みと反応の天才。</p>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="flip-left">
+        <img src="https://placehold.co/100x100/ff9900/000000?text=N" class="mb-3 member-thumb" data-bs-toggle="modal" data-bs-target="#modalMember7" alt="Nana">
+        <h4>Nana</h4>
+        <p>Roster</p>
+        <p>戦略構築とオーダー担当。</p>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="flip-left">
+        <img src="https://placehold.co/100x100/ff9900/000000?text=S" class="mb-3 member-thumb" data-bs-toggle="modal" data-bs-target="#modalMember8" alt="Sota">
+        <h4>Sota</h4>
+        <p>Roster</p>
+        <p>広い視野と丁寧なプレイ。</p>
+      </div>
+      <div class="col-md-4 mb-4" data-aos="flip-left">
+        <img src="https://placehold.co/100x100/ff9900/000000?text=H" class="mb-3 member-thumb" data-bs-toggle="modal" data-bs-target="#modalMember9" alt="Hina">
+        <h4>Hina</h4>
+        <p>Staff</p>
+        <p>スタッフ</p>
+      </div>
+      
+      
+      <!-- モーダルたち -->
+      <div class="modal fade" id="modalMember4" tabindex="-1" aria-labelledby="modalMember4Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="modalMember4Label">Asuka - VALORANT</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <p>爆発力のあるエイマー。</p>
+              <img src="https://placehold.co/300x200/ff9900/000000?text=Asuka" class="img-fluid rounded mt-2" alt="Asuka">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalMember5" tabindex="-1" aria-labelledby="modalMember5Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="modalMember5Label">Mio - VALORANT</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <p>サポート特化の頼れる存在。</p>
+              <img src="https://placehold.co/300x200/ff9900/000000?text=Mio" class="img-fluid rounded mt-2" alt="Mio">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalMember6" tabindex="-1" aria-labelledby="modalMember6Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="modalMember6Label">Taku - VALORANT</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <p>読みと反応の天才。</p>
+              <img src="https://placehold.co/300x200/ff9900/000000?text=Taku" class="img-fluid rounded mt-2" alt="Taku">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalMember7" tabindex="-1" aria-labelledby="modalMember7Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="modalMember7Label">Nana - VALORANT</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <p>戦略構築とオーダー担当。</p>
+              <img src="https://placehold.co/300x200/ff9900/000000?text=Nana" class="img-fluid rounded mt-2" alt="Nana">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalMember8" tabindex="-1" aria-labelledby="modalMember8Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="modalMember8Label">Sota - VALORANT</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <p>広い視野と丁寧なプレイ。</p>
+              <img src="https://placehold.co/300x200/ff9900/000000?text=Sota" class="img-fluid rounded mt-2" alt="Sota">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalMember9" tabindex="-1" aria-labelledby="modalMember9Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content bg-dark text-white">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="modalMember9Label">Hina - VALORANT</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <p>華麗な立ち回りと安定感。</p>
+              <img src="https://placehold.co/300x200/ff9900/000000?text=Hina" class="img-fluid rounded mt-2" alt="Hina">
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- SPONSORS セクション -->
+  <!-- SPONSORS セクション -->
+  <section id="partners" class="d-flex align-items-center justify-content-center text-center text-light" style="height: 100vh; background-color: #000;">
+    <div class="container">
+      <h2 class="text-center mb-3" data-aos="fade-up">PARTNERS</h2>
+      <p class="lead text-center mb-4" data-aos="fade-up" data-aos-delay="100">現在、Citrus e-sportsではスポンサー様を募集しています。<br class="d-none d-md-block">e-sportsの未来を共に築きましょう。</p>
+      <div class="row justify-content-center g-4">
+        <!-- Sponsor Card 1 -->
+        <div class="col-md-6 col-lg-5" data-aos="fade-up">
+          <div class="card h-100 bg-white text-dark no-hover">
+            <div class="card-body text-center">
+              <img src="" class="img-fluid mb-3" alt="ミライベクトル" style="height: 100px; object-fit: contain;">
+              <p>説明文</p>
+              <div class="d-flex justify-content-center gap-3 mt-3">
+                <a href="#" class="btn btn-outline-dark rounded-circle p-3" title="WEB"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023.svg" alt="W" style="width: 20px; height: 20px;"></a>
+                <a href="#" class="btn btn-outline-dark rounded-circle p-3" title="X"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023.svg" alt="X" style="width: 20px; height: 20px;"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sponsor Card 2 -->
+        <div class="col-md-6 col-lg-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="card h-100 bg-white text-dark no-hover">
+            <div class="card-body text-center">
+              <img src="https://gamingbase.jp/assets/images/logo.svg" class="img-fluid mb-3" alt="北海道ハイテクノロジー専門学校" style="height: 60px; object-fit: contain;">
+              <p>説明文</p>
+              <div class="d-flex justify-content-center gap-3 mt-3">
+                <a href="#" class="btn btn-outline-dark rounded-circle p-3" title="WEB"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023.svg" alt="W" style="width: 20px; height: 20px;"></a>
+                <a href="#" class="btn btn-outline-dark rounded-circle p-3" title="X"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023.svg" alt="X" style="width: 20px; height: 20px;"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+  <!-- Contact Section -->
+  <div class="container section" id="contact" data-aos="fade-up">
+    <div class="text-center mb-4">
+      <h2 class="text-warning">Contact</h2>
+      <p>ご不明点、ご意見などをお寄せください</p>
+    </div>
+    <form>
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" placeholder="お名前">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="your@email.com">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Message</label>
+        <textarea class="form-control" rows="4" placeholder="お問い合わせ内容"></textarea>
+      </div>
+      <button type="submit" class="btn btn-cyber">Send</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p>&copy; 2022 - 2024 Citrus e-sports sample site</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <script>
+    AOS.init();
+  
+  document.querySelectorAll('.member-thumb').forEach(img => {
+    img.addEventListener('click', function () {
+      const id = this.getAttribute('data-id');
+      const detail = document.getElementById(id);
+      if (detail.style.display === 'block') {
+        detail.style.display = 'none';
+      } else {
+        document.querySelectorAll('.member-detail').forEach(d => d.style.display = 'none'); // 他を閉じる
+        detail.style.display = 'block';
+      }
+    });
+  });
+
+
+    
+  </script>
+</body>
+</html>

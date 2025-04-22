@@ -197,6 +197,19 @@ body {
     color: rgb(231, 10, 73);
     padding: 30px;
   }
+  .custom-gradient-btn {
+    background: linear-gradient(90deg, #ff4b5c, #ff99cc);
+    background-size: 200% 100%;
+    background-position: right center;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .custom-gradient-btn:hover {
+    background-position: left center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+  }
 
   
   .form-control {

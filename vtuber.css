@@ -1,0 +1,71 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #f9f0ff;
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  header p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+
+  .main-btn {
+    background: linear-gradient(90deg, #ff4b5c, #ff99cc);
+    background-size: 200% 100%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+
+  .main-btn:hover {
+    background-position: left center;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .custom-nav-link {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-nav-link:hover {
+    transform: translateY(-3px); /* 上に3px浮かせる */
+    color: #ff4b5c; /* ホバー時にちょっとピンク色にしても可愛い！ */
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+
+
+  
+  .navbar-scroll {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+  }

@@ -28,7 +28,7 @@
           
               <!-- 中央ロゴ -->
               <a class="navbar-brand mx-2" href="#"> <!-- mx-3→mx-2にしてロゴとリンクを近づける -->
-                <img src="https://placehold.co/100x50?text=Logo" alt="Logo" style="height:50px;">
+                <img src="image/Color.png" alt="Logo" style="height:50px;">
               </a>
           
               <!-- 右側リンク -->
@@ -42,9 +42,26 @@
           
       
         <header>
-          <h1>Welcome to Our Cute Site!</h1>
-          <p>かわいくてふわっとした世界へようこそ。</p>
-          <a href="#" class="main-btn">今すぐチェック！</a>
+            <div id="mainCarousel" class="carousel slide main-slider" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://placehold.co/1920x1080/ff99cc/ffffff?text=Slide+1" alt="Slide 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://placehold.co/1920x1080/ffcccc/333333?text=Slide+2" alt="Slide 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://placehold.co/1920x1080/ffe0f0/333333?text=Slide+3" alt="Slide 3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+          
         </header>
       
         <section id="about" class="py-5 text-center">

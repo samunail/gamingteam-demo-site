@@ -88,6 +88,44 @@ html {
     color: #ff4b5c; /* ホバー時にちょっとピンク色にしても可愛い！ */
   }
 
+  .member-card img {
+    width: 100%;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+
+  .member-card:hover img {
+    transform: scale(1.05);
+  }
+
+  .member-card h5 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 4px;
+  }
+
+  .member-card p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    color: #ffb6d5;
+  }
+
+  .modal-content {
+    background-color: #fff0f8;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .modal-header {
+    border-bottom: none;
+  }
+
+  .modal-body img {
+    width: 200px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
   footer {
     text-align: center;
     padding: 20px;

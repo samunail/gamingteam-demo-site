@@ -18,3 +18,17 @@ const navbar = document.getElementById('mainNavbar');
       wrap: true
     });
   });
+
+  const zoomElements = document.querySelectorAll('.zoom-on-scroll');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      }
+    });
+  }, {
+    threshold: 0.3
+  });
+
+  zoomElements.forEach(el => observer.observe(el));

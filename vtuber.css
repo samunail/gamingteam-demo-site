@@ -3,7 +3,7 @@ html {
   }
 
   body {
-    background-color: #f9f0ff;
+    background-color: #ffffff;
     font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', sans-serif;
     margin: 0;
     padding: 0;
@@ -13,6 +13,40 @@ html {
     padding: 80px 0;
     text-align: center;
   }
+  #mainCarousel {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  
+  #mainNavbar {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel,
+  .carousel-inner {
+    margin-top: 0 !important;
+  }
+  
+
+  .navbar-toggler {
+    border: none;
+    box-shadow: none;
+    background: none;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("image/Color.png");
+    width: 60px;
+  }
+
+
+
   .main-slider {
     height: 100vh;
   }
